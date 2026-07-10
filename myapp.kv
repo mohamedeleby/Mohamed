@@ -1,0 +1,302 @@
+#:import utls kivy.utils
+<Label>:
+    font_name: "main/arialbd.ttf"
+
+<Button>:
+    font_name: "main/arialbd.ttf"
+<Mygams>:
+    
+    ch:ch
+    mylabel:mylabel
+    mylabel2:mylabel2
+    mylabel3:mylabel3
+    hint_label:hint_label
+    GridLayout:
+        cols: 1
+        size: root.width,root.height
+        GridLayout:
+            cols: 2
+            Label:
+                id:mylabel2
+                text: ""
+                size_hint:(1,2)
+                font_size:24
+                font_name:"main.py/arialbd.ttf"
+            Label:
+                id:mylabel3 
+                text: ""
+                size_hint:(1,2)
+                font_size:32  
+                font_name:"main.py/arialbd.ttf"    
+        GridLayout:
+            cols:1
+            Label:
+                id:mylabel
+                text: ""
+                size_hint:(1,2)
+                font_name:"main.py/arialbd.ttf"
+                font_size:32
+                
+                bg_color:(1,0,0,0)
+        GridLayout:
+            cols:2        
+            Label:
+            
+                id: ch
+                text:""
+                size_hint:(0.5,2)  
+                font_size:50
+                font_name:"main.py/arialbd.ttf" 
+            Label:
+                id: hint_label
+                text: ""
+                font_name: "main.py/arialbd.ttf"
+                font_size: 18
+                color: (1, 1, 0, 1) # لون أصفر عشان يبان كأنه مساعدة     
+        
+        GridLayout:
+            cols: 9
+            size_hint_y:0.7
+            GridLayout:
+                rows:3
+                Button:
+                    text: "ض"
+                    font_size: 32
+                    size_hint_y:0.0001
+                    on_press: root.button("ض")
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                    font_name:"main.py/arialbd.ttf"
+                Button:
+                    text: "ص"
+                    font_size: 32
+                    size_hint_y:0.0001
+                    on_press: root.button("ص")
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                    font_name:"main.py/arialbd.ttf"
+                Button:
+                    text: "ث"
+                    font_size: 32
+                    size_hint_y:0.0001
+                    on_press: root.button("ث")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ق"
+                    font_size: 32
+                    on_press: root.button("ق")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ف"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ف")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "غ"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("غ")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ع"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ع")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ه"
+                    font_size: 32
+                    on_press: root.button("ه")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "خ"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("خ")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ح"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ح")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ج"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ج")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "د"
+                    font_size: 32        
+                    on_press: root.button("د")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ذ"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ذ")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ش"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ش")
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                    font_name:"main.py/arialbd.ttf"
+                Button:
+                    text: "س"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("س")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ب"
+                    font_size: 32
+                    on_press: root.button("ب")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ي"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ي")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ا"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ا")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ل"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ل")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ت"
+                    font_size: 32
+                    on_press: root.button("ت")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ن"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ن")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "م"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("م")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ط"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ط")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+
+                    size_hint_y:0.001
+                    text: "ظ"
+                    font_size: 32 
+                    on_press: root.button("ظ")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    text: "ك"
+                    font_size: 32
+                    size_hint_y:0.001
+                    on_press: root.button("ك")
+                    font_name:"main.py/arialbd.ttf"
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "و"
+                    font_size: 32             
+                    on_press: root.button("و")  
+                    font_name:"main.py/arialbd.ttf" 
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ز"
+                    font_size: 32             
+                    on_press: root.button("ز")  
+                    font_name:"main.py/arialbd.ttf" 
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)    
+                Button:
+                    size_hint_y:0.001
+                    text: "ة"
+                    font_size: 32             
+                    on_press: root.button("ة")  
+                    font_name:"main.py/arialbd.ttf" 
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)  
+                Button:
+                    size_hint_y:0.001
+                    text: "ى"
+                    font_size: 32             
+                    on_press: root.button("ى")  
+                    font_name:"main.py/arialbd.ttf" 
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)
+                Button:
+                    size_hint_y:0.001
+                    text: "ر"
+                    font_size: 32             
+                    on_press: root.button("ر")  
+                    font_name:"main.py/arialbd.ttf" 
+                    #RGB- A
+                    background_color:(238/255.0,250/250,0/250,1)                      
